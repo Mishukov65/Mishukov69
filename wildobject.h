@@ -8,6 +8,6 @@ public:
     Wildobject();
     Wildobject(string const&nameobject, double const&x,double const&y);
     Wildobject(Wildobject const& wildobject);
-    void print();
+    void print()const;
     Wildobject& operator = (Wildobject const & wildobject);
 };
