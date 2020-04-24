@@ -36,7 +36,7 @@ void  City::setCountResidents(unsigned int const countresidents)
 {
     this->countresidents=countresidents;
 }
-void City::print()
+void City::print()const
 {
     Country::print();
     cout<<"iscountry: "<<this->iscountry<<endl;
