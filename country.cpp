@@ -22,7 +22,7 @@ void Country::setCapital(string const& capital)
 {
     this->capital=capital;
 }
-void Country::print()
+void Country::print()const
 {
     cout<<"nameobject: "<<this->nameobject<<endl;
     cout<<"x: "<<this->x<<endl;
