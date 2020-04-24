@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1587655577 source:d:\games\codeblocks\lab3_8\city.cpp
+	"city.h"
+	<iostream>
+
+1587657500 source:d:\games\codeblocks\lab3_8\country.cpp
+	"country.h"
+	<iostream>
+
+1587651415 source:d:\games\codeblocks\lab3_8\geography_object.cpp
+	"geography_object.h"
+
+1587656597 source:d:\games\codeblocks\lab3_8\wildobject.cpp
+	"wildobject.h"
+	<iostream>
+
+1587658187 source:d:\games\codeblocks\lab3_8\main.cpp
+	<iostream>
+	"geography_object.h"
+	"country.h"
+	"city.h"
+	"wildobject.h"
+
+1587655345 d:\games\codeblocks\lab3_8\city.h
+	"geography_object.h"
+	"country.h"
+	<string>
+
+1587653453 d:\games\codeblocks\lab3_8\country.h
+	"geography_object.h"
+	<string>
+
+1587656561 d:\games\codeblocks\lab3_8\wildobject.h
+	"geography_object.h"
+	<string>
+
+1587650610 d:\games\codeblocks\lab3_8\geography_object.h
+	<string>
+
