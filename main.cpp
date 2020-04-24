@@ -26,7 +26,10 @@ int main()
     cout<<endl<<london.getCapital();
     cout<<endl<<london.getX();
     cout<<endl<<london.getY()<<endl;
+    
     Wildobject forest("Ggggg",76.8,36.6);
     forest.print();
+    const City c("", 0, 0, "", 0, 0);
+    c.print();
     return 0;
 }
