@@ -17,5 +17,5 @@ public:
     void setNameObject(string const& nameobject);
     void setX(double const& x);
     void setY(double const& y);
-    virtual void print()=0;
+    virtual void print()const=0;
 };
