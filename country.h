@@ -12,6 +12,6 @@ public:
     Country(Country const &country);
     const string& getCapital() const;
     void setCapital(string const& capital);
-    void print();
+    void print()const;
     Country& operator = (Country const& country);
 };
