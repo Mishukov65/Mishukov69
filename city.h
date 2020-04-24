@@ -18,7 +18,7 @@ public:
     const unsigned int getCountResidents() const;
     void  setIsCountry(bool const iscountry);
     void  setCountResidents(unsigned int const countresidents);
-    void print();
+    void print()const;
      City& operator = (City const& city);
 };
 
